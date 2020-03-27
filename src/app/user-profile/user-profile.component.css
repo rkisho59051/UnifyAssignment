@@ -1,0 +1,44 @@
+input[type="text"] {
+    text-align: left;
+    background: white;
+    height:2rem;
+    width:20em;
+    border-radius:30px;
+    background: url('../../assets/img/search.png') no-repeat right ;
+    padding:20px;
+}
+.bar {
+    display:inline-block;
+    border-left: 2px solid lightgray;
+    height: 40px;
+}
+.airtel_symbol {
+    width:80px;
+    height:50px;
+}
+hr {
+    border: 0;
+    clear:both;
+    display:block;
+    width: 96%;                
+    background-color:lightgray;
+    height: 1px;
+}
+
+#line {
+    float: left;
+    width: 1920px;
+    height: 40px;                
+}
+
+    .user_image {
+        height:70px;
+        width:70px;
+        
+    }
+
+    .center {
+        text-align: center;
+    }
+    /* FORM TYPOGRAPHY*/
+    .fast .toggle-group { transition: left 0.1s; -webkit-transition: left 0.1s; }

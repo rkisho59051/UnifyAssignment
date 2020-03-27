@@ -1,0 +1,43 @@
+.reject_button {
+    width:15rem;
+    height:4rem;
+    border-radius:10px;
+    background:white;
+    color:#00003f;
+    font-weight: 600;
+    }
+    .approve_button {
+        width:15rem;
+        height:4rem;
+        border-radius:10px;
+        background:white;
+    color:#00003f;
+    font-weight: 600;
+    }
+    .reject_button:hover {
+        width:15rem;
+        height:4rem;
+        border-radius:10px;
+        background:#00003f;
+        color:white;
+        font-weight: 600;
+        }
+        .approve_button:hover {
+        width:15rem;
+        height:4rem;
+        border-radius:10px;
+        background:#00003f;
+        color:white;
+        font-weight: 600;
+        }
+        .minutes {
+            color:red;
+            
+            padding:3px 5px 3px 5px;
+            border:1px solid lightgray;
+        }
+        .seconds {
+            color:red;
+            padding:3px 5px 3px 5px ;
+            border:1px solid lightgray;
+        }

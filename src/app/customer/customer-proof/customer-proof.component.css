@@ -1,0 +1,25 @@
+.container {
+    border:1px solid lightgray;
+    box-shadow: lightgray;
+    width:70rem;
+    height:69rem;
+}
+hr {
+    border: 0;
+    clear:both;
+    display:block;
+    width: 96%;                
+    background-color:lightgray;
+    height: 1px;
+}
+
+#line {
+    float: left;
+    width: 1920px;
+    height: 40px;                
+}
+
+/* .identity_card {
+    width:40rem;
+    height:30rem;
+} */

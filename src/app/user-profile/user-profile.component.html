@@ -1,0 +1,80 @@
+
+<div class="header col-md-12">
+<div class="col-md-4">
+    <img class="airtel_symbol" src="../../assets/img/airtel_symbol.jpg">
+</div>
+<div class="col-md-4"></div>
+<div class="col-md-4">
+<input type="text" placeholder="Search"><div class="bar"></div>
+<a (click)="onLogout()"  style="cursor: pointer;"><span class="material-icons" style=" width:10rem;">power_settings_new</span></a>
+</div>
+<div id="line"><hr/></div>
+</div>
+<div class="executive-info col-md-12">
+    <div class="col-md-6">
+        <div class="col-md-1">
+        <img class="user_image" src="../../assets/img/user_image.png"/>
+    </div>
+    <div class="col-md-2" style="margin-top:15px;">
+        {{firstName}}{{designation}}
+    </div>
+    <div class="col-md-3 center">
+        <h3>TOTAL</h3>
+        <h4>{{total}}</h4>
+    </div>
+    <div class="col-md-3 center">
+        <h3>APPROVED</h3>
+        <h4>{{approved}}</h4>
+    </div>
+    <div class="col-md-3 center">
+        <h3>REJECTED</h3>
+        <h4>{{rejected}}</h4>
+    </div>
+    </div>
+    <div class="col-md-6">
+        <div class="col-md-6 center">
+            <h3>Average Handling Time</h3>
+            <h4>{{avghandlingtime}}</h4>
+        </div>
+        <div class="col-md-3 center">
+            <h3>Available</h3>
+            <input type="checkbox" (click)="available()" data-toggle="toggle" data-class="fast">
+            <span>{{timeAvailMin}}:{{timeAvail}}</span>
+        </div>
+        <div class="col-md-3 center">
+            <h3>Break</h3>
+            <input type="checkbox" (click)="break()" data-toggle="toggle" data-class="fast">
+            <span>{{timeBreakMin}}:{{timeBreak}}</span>
+        </div>
+    </div>
+</div>
+<div class="banner col-md-12">
+    <div class="col-md-3">
+        <h3>Subscriber Details</h3>
+    </div>
+    <div class="col-md-6">
+
+    </div>
+    <div class="col-md-3">
+        <span class="material-icons">history</span><span style="margin-left: 10px; font-size: 15px;">Recent Cases</span>
+    </div>
+</div>
+<div class="col-md-6">
+    
+    <app-customer-proof></app-customer-proof>
+</div>
+<div class="col-md-6">
+    <app-customer-details></app-customer-details>
+    <app-customer-information></app-customer-information>
+    
+</div>
+<div class="col-md-12">
+    <app-footer></app-footer>
+</div>
+
+
+
+
+
+
+

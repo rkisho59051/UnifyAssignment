@@ -1,1 +1,26 @@
-/* You can add global styles to this file, and also import other style files */
+.container {
+  text-align: center;
+  margin-top:5rem;
+}
+.airtel_image {
+  width:200px;
+  height:200px;
+}
+.airtel_plan_image {
+  height:450px;
+  width:450px;
+}
+.user_image {
+  width:200px;
+  height:200px;
+}
+@media screen and (max-width: 560px) {
+  .airtel_plan_image {
+    height:30rem;
+    width:25rem;
+  }
+}
+
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
