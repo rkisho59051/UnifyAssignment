@@ -1,0 +1,28 @@
+● src
++---● app
+|   +--● login
+|   |  |--login.component.ts|.html|.css
+|   +--● user-profile
+|   |  |--user-profile.component.ts|.html|.css
+|   +--●--customer
+|   +--●customer-details
+|   |  |--customer-details.component.ts|.html|.css
+|   +--●customer-information
+|   |  |--customer-information.component.ts|.html|.css
+|   +--●customer-proof
+|   |  |--customer-proof.component.ts|.html|.css
+|   +--●footer
+|   |  |--footer.component.ts|.html|.css
+|   |  ●not-found
+|   |  |--not-found.component.ts|.html|.css
+|   +--● shared
+|   |  |--user.service.ts
+|   |  |--user.model.ts
+|   |
+|   |--app.module.ts
+|   |--routes.ts
+|
++---● auth
+    |
+    +-- auth.gaurd.ts
+    +-- auth.interceptor.ts
